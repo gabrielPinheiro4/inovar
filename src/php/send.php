@@ -73,14 +73,14 @@ if(isset($_POST["enviar"])){
     $mail -> isSMTP();
     $mail -> Host = "smtp.gmail.com";
     $mail -> SMTPAuth = true;
-    $mail -> Username = 'administrador@inovarmarketingconsultoria.com.br';
-    $mail -> Password = 'Inovar@321';
+    $mail -> Username = '';
+    $mail -> Password = '';
     $mail -> SMTPSecure = 'ssl';
     $mail -> Port = 465;
 
     $mail -> setFrom($_POST["email"]);
 
-    $mail -> addAddress('administrador@inovarmarketingconsultoria.com.br');
+    $mail -> addAddress('');
 
     $mail -> isHTML(true);
 
