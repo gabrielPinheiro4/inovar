@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" type="x-icon" href="src/imgs/icon.png">
+    <link rel="stylesheet" href="src/locomotive-scroll-master/dist/locomotive-scroll.min.css">
+    <link rel="stylesheet" href="src/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <title>Inovar</title>
+</head>
+<body>
+<!----------------------INTRO----------------------->
+<div class="intro">
+  <h1 class="logo-header">
+    <img class="logo" width="500" src="src/imgs/logo.svg" alt="">
+    <!-- <span class="logo">INO</span><span class="logo">VAR</span> -->
+  </h1>
+ </div>
+
+
+    <!---------------------------- NAVBAR ---------------------------------->
+    <header class="header" id="header">
+        <nav class="nav container">
+          <a href="index.html" class="nav__logo animate__animated animate__fadeInLeft animate__delay-3s"><img width="120" class="img-fluid" src="src/imgs/logo.svg" alt=""></a>
+      
+          <div class="nav__menu animate__animated animate__fadeInRight animate__delay-3s" id="nav-menu">
+            <ul class="nav__list ">
+              
+      
+              <li class="nav__item">
+                <a href="#fazemos" class="nav__link" id="quem__link">
+                  <i class="bi bi-person-fill nav__icon"></i> Conheça a Inovar
+                </a>
+              </li>
+      
+      
+              <li class="nav__item">
+                <a  href="#cases" class="nav__link">
+                  <i class="bi bi-images nav__icon"></i> Cases
+                </a>
+              </li>
+      
+              <li class="nav__item">
+                <a href="#clientes" class="nav__link">
+                  <i class="bi bi-people nav__icon"></i> Nossos clientes
+                </a>
+              </li>
+      
+              <li class="nav__item">
+                <a href="#formulario" class="nav__link">
+                  <i class="bi bi-chat-left-text-fill nav__icon"></i> Contato
+                </a>
+              </li>
+            </ul>
+      
+            <i class="bi bi-x nav__close" id="nav-close"></i>
+            <!-- <i class="uil uil-times nav__close" id="nav-close"></i> -->
+          </div>
+      
+          <div class="nav__btns">
+            <!-- <i class="uil uil-palette theme-customization"></i> -->
+      
+            <div class="nav__toggle animate__animated animate__fadeInRight animate__delay-3s" id="nav-toggle">
+              <i class="bi bi-grid-3x3-gap-fill"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+      <!---------------------------- LOCOMOTIVE SCROLL ---------------------------------->
+      <main class="main__page">
+      <div class="locomo" data-scroll-container>
+
+        <!---------------------------- HOME ---------------------------------->
+        <section class="home__section">
+        <div id="home">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 home__left__side">
+                <div class="text__home">
+                  <h1 class="home__title">Marketing, Consultoria & <span class="element"></span></h1>
+                  <p class="home__paragrafo">Vamos ?</p>
+                </div>
+                
+                <a href="https://api.whatsapp.com/send?phone=5588998060221" target="_blank">
+                  <input class="home__button" type="submit" value="Entrar em contato">
+                </a>
+
+                <div class="seta__home">
+                  <svg id="arrow__home" width="47" height="75" viewBox="0 0 47 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g  clip-path="url(#clip0_217_2)">
+                    <path  d="M3 23.3093C3 28.7342 5.11258 33.8344 8.94859 37.6704C12.7846 41.5064 17.8848 43.619 23.3097 43.619C28.7347 43.619 33.8349 41.5064 37.6709 37.6704C41.5069 33.8344 43.6195 28.7342 43.6195 23.3093C43.6195 17.8843 41.5069 12.7841 37.6709 8.94811C33.8349 5.11211 28.7347 2.99953 23.3097 2.99953C17.8848 2.99953 12.7846 5.11211 8.94859 8.94811C5.11258 12.7841 3 17.8843 3 23.3093ZM0 23.3093C0 10.4356 10.4361 -0.000469208 23.3097 -0.000469208C36.1834 -0.000469208 46.6195 10.4356 46.6195 23.3093C46.6195 36.1829 36.1834 46.619 23.3097 46.619C10.4361 46.619 0 36.1829 0 23.3093Z" fill="#F60042"/>
+                    <path class="animate__animated animate__shakeY animate__infinite animate__slower" d="M23.31 73.314L23.31 19.294" stroke="#2FDEC6" stroke-width="3" stroke-linecap="round"/>
+                    <path class="animate__animated animate__shakeY animate__infinite animate__slower" d="M17.423 24.59L23.199 18.814L28.975 24.59" stroke="#2FDEC6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_217_2">
+                    <rect width="46.62" height="74.815" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                </div>
+              </div>
+              <div class="col-md-6 home__right__side ">
+                <div class="background__right__side">
+                  <img class="backgorund__home" src="src/imgs/imgs-site/esfera gradiente.png" alt="">
+                </div>
+
+                <div class="objeto__right__side d-flex justify-content-center" >
+                  <img data-scroll data-scroll-speed="4" class="obj__home " src="src/imgs/imgs-site/raio.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---------------------------- O QUE FAZEMOS ---------------------------------->
+      <section class="oqueFazemos">
+        <div id="fazemos">
+          <div class="container">
+            <div class="row linha__fazemos">
+              <div class="col-md-7 fazer__left__side">
+                <h1 class="fazemos__title"> Conheça a Inovar</h1>
+                
+                <div  class="video" >
+                  <video data-scroll data-scroll-speed="2" class="my__video video-js vjs-theme-city" src="src/midia/INOVAR_2023_SITE.mp4" controls autoplay></video>
+                </div>
+                
+          </div>
+
+          <div  class="col-md-5 fazer__right__side" data-scroll data-scroll-speed="3" data-scroll-delay="0.8">
+            <div class="tarefas adjust__tarefa">
+              <img class="fazer__img adjust__img" src="src/imgs/inovar-icon.png" alt="">
+              <p class="fazemos__titles adjust__text">Gerenciamento de Redes Sociais</p>
+            </div>
+
+            <div class="tarefas">
+              <img class="fazer__img" src="src/imgs/inovar-icon.png" alt="">
+              <p class="fazemos__titles">Produção de Conteúdo</p>
+            </div>
+
+            <div class="tarefas">
+              <img class="fazer__img" src="src/imgs/inovar-icon.png" alt="">
+              <p class="fazemos__titles">Criação de Marca e Branding</p>
+            </div>
+
+            <div class="tarefas">
+              <img class="fazer__img" src="src/imgs/inovar-icon.png" alt="">
+              <p class="fazemos__titles">Tráfego Pago</p>
+            </div>
+
+            <div class="tarefas">
+              <img class="fazer__img" src="src/imgs/inovar-icon.png" alt="">
+              <p class="fazemos__titles">Criação de Sites e SEO</p>
+            </div>
+
+            <div class="tarefas">
+              <img class="fazer__img" src="src/imgs/inovar-icon.png" alt="">
+              <p class="fazemos__titles">Consultoria de Marketing</p>
+            </div>
+
+            <a href="https://api.whatsapp.com/send?phone=5588998060221" target="_blank">
+                    <input class="fazemos__button" type="submit" value="Entrar em contato">
+                  </a>
+          </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+          <!---------------------------- INOVAR ICONE ---------------------------------->
+          <img  class="inovar__icon" src="src/imgs/inovar-icon-2.png" alt="" >
+
+      <!---------------------------- CASES ---------------------------------->
+      <section class="cases" data-scroll data-scroll-speed="1">
+        <div id="cases">
+          <div class="container">
+            <div data class="row text__row__cases ">
+              <div class="col-md-5 text__cases ">
+                <h1 class="cases__h1">Cases de sucesso</h1>
+              </div>
+
+              <div class="col-md-7">
+                <h2 class="cases__h2">Confira alguns trabalhos que já realizamos para alguns dos nossos clientes </h2>
+                <h2 class="cases__click">Clique e veja</h2>
+              </div>
+            </div>
+
+            <div class="cases__links">
+              <div class="row cases__row">
+                <div class="col-md-4 image__link d-flex justify-content-center">
+                  <a href="viaMedicamentos.html" class="case__link">
+                    <img class="case__img" src="src/imgs/cases/viaMedicamentos.png" alt="">
+
+                    <div class="overlay__case-6">
+                      <img class="img__case__hover__via" src="src/imgs/clientes/logo-viamedicamentos.png" alt="">
+                      <p class="title__case__hover__via">Gerenciamento de redes sociais, produção de conteúdo e tráfego pago</p>
+                  </div>
+                  </a>
+                </div>
+
+                <div class="col-md-4 image__link d-flex justify-content-center">
+                  <a href="centroSul.html" class="case__link">
+                    <img class="case__img" src="src/imgs/cases/centroSul.jpg" alt="">
+
+                    <div class="overlay__case-6">
+                      <img class="img__case__hover__centro" src="src/imgs/clientes/logo-centrosulsolar-2.png" alt="">
+                      <p class="title__case__hover__centro">Redesing de marca, gerenciamento das redes sociais e produção de conteúdo</p>
+                  </div>
+                  </a>
+                </div>
+
+                <div class="col-md-4 image__link d-flex justify-content-center">
+                  <a href="story.html" class="case__link">
+                    <img class="case__img" src="src/imgs/cases/StoryBar.jpg" alt="">
+
+                    <div class="overlay__case-6">
+                      <img class="img__case__hover" src="src/imgs/clientes/logo-story-bar.png" alt="">
+                      <p class="title__case__hover__story">Criação de identidade visual, gerenciamento das redes sociais e produção de conteúdo</p>
+                  </div>
+                  </a>
+                </div>
+
+                <div class="col-md-4 image__link d-flex justify-content-center">
+                  <a href="labGouveia.html" class="case__link">
+                    <img class="case__img" src="src/imgs/cases/labGouveia.jpg" alt="">
+
+                    <div class="overlay__case-6">
+                      <img class="img__case__hover" src="src/imgs/clientes/logo-labgouveia.png" alt="">
+                      <p class="title__case__hover__lab">Gerenciamento de redes sociais e produção de conteúdo</p>
+                  </div>
+                  </a>
+                </div>
+
+                <div class="col-md-4 image__link d-flex justify-content-center">
+                  <a href="dom.html" class="case__link">
+                    <img class="case__img" src="src/imgs/cases/dom.jpg" alt="">
+
+                    <div class="overlay__case-6">
+                      <img class="img__case__hover__dom" src="src/imgs/clientes/logo-dom.png" alt="">
+                      <p class="title__case__hover__dom">Gerenciamento das redes sociais e produção de conteúdo</p>
+                  </div>
+                  </a>
+                </div>
+
+                <div class="col-md-4 image__link case__6 d-flex justify-content-center">
+                  <a href="casaDasLentes.html" class="case__link ">
+                    <img class="case__img" src="src/imgs/cases/casaDasLentes.jpg" alt="">
+
+                    <div class="overlay__case-6">
+                        <img class="img__case__hover" src="src/imgs/clientes/logo-casa-das-lentes.png" alt="">
+                        <p class="title__case__hover">Gerenciamento de redes sociais e produção de conteúdo</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center">
+                  <a href="https://api.whatsapp.com/send?phone=5588998060221" target="_blank">
+                    <input class="fazemos__button" type="submit" value="Entrar em contato">
+                  </a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!---------------------------- CLIENTES ---------------------------------->
+      <section class="clientes">
+        <div id="clientes">
+          <div class="container">
+            <div class="clientes__text">
+              <h1 class="clientes__title">Empresas que decidiram <span>Inovar</span></h1>
+              <!-- <p class="clientes__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, nulla ea error deserunt, magni enim cumque non dolore odio reprehenderit vitae est pr</p> -->
+            </div>
+
+            <div class="row">
+              <div id="cliente__1" class="col-lg-3 col-6 mb-4 mb-lg-3">
+                
+                <a href="" class="destaque-1">
+                  <div  class="img-container mb-3">
+                    
+                  </div>
+                </a>
+              </div>
+              
+              <div id="cliente__2" class="col-lg-3 col-6 mb-4 mb-lg-3">
+                <a href="" class="destaque-2">
+                  <div id="logo-2" class="img-container mb-3">
+                    
+                  </div>
+                </a>
+              </div>
+              
+              <div id="cliente__3" class="col-lg-3 col-6 mb-4 mb-lg-3">
+                <a href="" class="destaque-3">
+                  <div id="logo-3" class="img-container mb-3">
+                   
+                  </div>
+              
+                </a>
+              </div>
+              
+              <div id="cliente__4" class="col-lg-3 col-6 mb-4 mb-lg-3">
+                <a href="" class="destaque-4">
+                  <div id="logo-4" class="img-container mb-3">
+                    
+                  </div>
+                  
+                </a>
+              </div>
+              
+              <div id="cliente__5" class="col-lg-3 col-6 mb-4 mb-lg-3">
+                <a href="" class="destaque-5">
+                  <div id="logo-5" class="img-container mb-3">
+                    
+                  </div>
+                  
+                </a>
+              </div>
+              
+              <div id="cliente__6" class="col-lg-3 col-6 mb-4 mb-lg-3">
+                <a href="" class="destaque-6">
+                  <div id="logo-6" class="img-container mb-3">
+                   
+                  </div>
+                  
+                </a>
+              </div>
+              
+              <div id="cliente__7" class="col-lg-3 col-6 mb-4 mb-lg-3">
+                <a href="" class="destaque-7">
+                  <div id="logo-7" class="img-container mb-3">
+                   
+                  </div>
+                  
+                </a>
+              </div>
+              
+              <div id="cliente__8" class="col-lg-3 col-6 mb-4 mb-lg-3">
+                <a href="" class="destaque-8">
+                  <div id="logo-8" class="img-container mb-3">
+                   
+                  </div>
+                  
+                </a>
+              </div>
+
+              <div id="cliente__9" class="col-lg-3 col-6 mb-4 mb-lg-3">
+                <a href="" class="destaque-9">
+                  <div id="logo-9" class="img-container mb-3">
+                   
+                  </div>
+                  
+                </a>
+              </div>
+
+              <div id="cliente__10" class="col-lg-3 col-6 mb-4 mb-lg-3">
+                <a href="" class="destaque-10">
+                  <div id="logo-10" class="img-container mb-3">
+                   
+                  </div>
+                  
+                </a>
+              </div>
+
+              <div id="cliente__11" class="col-lg-3 col-6 mb-4 mb-lg-3">
+                <a href="" class="destaque-11">
+                  <div id="logo-11" class="img-container mb-3">
+                   
+                  </div>
+                  
+                </a>
+              </div>
+
+              <div id="cliente__12" class="col-lg-3 col-6 mb-4 mb-lg-3">
+                <a href="" class="destaque-12">
+                  <div id="logo-12" class="img-container mb-3">
+                   
+                  </div>
+                  
+                </a>
+              </div>
+              </div>
+
+              <div class="col-md-12 depoimento">
+                <h1>O que os nossos clientes acham da <span>Inovar</span></h1>
+
+                <div class="d-flex justify-content-center">
+                <video controls src="src/midia/CLIENTES_INOVAR_2.mp4"></video>
+              </div>
+              </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!---------------------------- EQUIPE  ---------------------------------->
+      <!-- <section class="equipe">
+        <div id="equipe">
+          <div class="container">
+            <div class="equipe__text">
+              <h1 class="equipe__h1">Equipe</h1>
+              <h2 class="equipe__h2">Lorem ipsum dolor sit, amet consectetur adipisicin</h2>
+            </div>
+
+            
+
+            <div class="row equipe__linha">
+              <div class="col-md-12 backgorund__equipe d-flex justify-content-center luz__equipe">
+                <img width="900" class="back__luz" src="src/imgs/imgs-site/esfera gradiente@2x.png" alt="">
+                <img class="luz__peq" src="src/imgs/imgs-site/esfera gradiente.png" alt="">
+              </div>
+
+              <div class="col-md-12 d-flex justify-content-center equipe__membros">
+                <div class="membro__1">
+                  <div class="overlay__membro-1">
+                    <div class="content__overlay">
+                      <h3 class="overlay__h3">Leonardo Araújo</h3>
+                      <p class="overlay__p">Diretor Executivo e Estrategista</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="membro__2">
+                  <div class="overlay__membro-2">
+                    <div class="content__overlay">
+                      <h3 class="overlay__h3">David Morais</h3>
+                      <p class="overlay__p">Diretor Executivo e Estrategista</p>
+                    </div>
+                  </div>
+                  
+                 
+                </div>
+                
+                <div class="membro__3">
+                  <div class="overlay__membro-3">
+                    <div class="content__overlay">
+                      <h3 class="overlay__h3">Felipe Alves</h3>
+                      <p class="overlay__p">Diretor Executivo e Estrategista</p>
+                    </div>
+                  </div>
+
+                </div>
+                
+                <div class="membro__4">
+                  <div class="overlay__membro-4">
+                    <div class="content__overlay">
+                      <h3 class="overlay__h3">Levir Araújo</h3>
+                      <p class="overlay__p">Diretor Executivo e Estrategista</p>
+                    </div>
+                  </div>
+                  
+                </div>
+                
+              </div>
+
+              <div class="col-md-12 equipe__membros__2 d-flex justify-content-center">
+                <div class="membro__5">
+                  <div class="overlay__membro-5">
+                    <div class="content__overlay">
+                      <h3 class="overlay__h3">Levir Araújo</h3>
+                      <p class="overlay__p">Diretor Executivo e Estrategista</p>
+                    </div>
+                  </div>
+                  
+               
+                </div>
+
+                <div class="membro__6">
+                  <div class="overlay__membro-6">
+                    <div class="content__overlay">
+                      <h3 class="overlay__h3">Levir Araújo</h3>
+                      <p class="overlay__p">Diretor Executivo e Estrategista</p>
+                    </div>
+                  </div>
+                  
+               
+                </div>
+
+                <div class="membro__7">
+                  <div class="overlay__membro-7">
+                    <div class="content__overlay">
+                      <h3 class="overlay__h3">Levir Araújo</h3>
+                      <p class="overlay__p">Diretor Executivo e Estrategista</p>
+                    </div>
+                  </div>
+                  
+               
+                </div>
+              </div>
+
+              <div class="col-md-12 d-flex justify-content-center">
+                <input class="equipe__button" type="submit" value="Entrar em contato">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      
+       <!---------------------------- FORMULÁRIO ---------------------------------->
+       <section class="form" data-scroll data-scroll-speed="2" >
+        <div id="formulario">
+          <div class="container contact__container">
+            <div class="row text__row d-flex justify-content-center">
+              <div class="col-md-12 text__form ">
+                <h1 class="contact__h1">Contato</h1>
+                <!-- <h2 class="contact__h2">Lorem ipsum, dolor sit amet consectetur adipisicingdipisicing elit. Similique voluptates, odio ab atque pariatur exercitationem at ex velit dele</h2> -->
+              </div>
+            </div>
+            
+            <form id="form" action="src/php/send.php" method="post" class="contact__form d-flex justify-content-center">
+            <div class="inputs d-flex justify-content-center">
+              <div class="input__field row ">
+                <div class="col-lg-6">
+                  <input class="input__text required" name="nome" type="text" placeholder="Digite seu nome" oninput="nameValidate()">
+                  <span class="span__required">Nome deve ter no mínimo 3 caracteres</span>
+                </div>
+
+                <div class="col-lg-6">
+                  <input class="input__text required" name="email" type="text" placeholder="Digite seu email" oninput="emailValidate()">
+                  <span class="span__required">Digite um email válido</span>
+                </div>
+
+                <div class="col-lg-6">
+                  <input class="input__text required number" name="numero" type="number" placeholder="Digite seu telefone" oninput="numberValidate()">
+                  <span class="span__required">Digite um número válido</span>
+                </div>
+
+                <div class="col-lg-6 select__field">
+                  <input type="text" class="input__text required" name="obj" placeholder="Qual é o seu objetivo ?" oninput="projetoValidate()">
+                  <span class="span__required">Objetivo deve ter no mínimo 3 caracteres</span>
+                </div>
+
+                <div class="col-lg-12">
+                  <textarea class="text__area required"  name="msg" id="" cols="30" rows="5" placeholder="Digite sua mensagem" oninput="textareaValidate()"></textarea>
+                  <span class="span__required">Digite uma mensagem</span>
+                </div>
+
+                <div class="col-lg-12 d-flex justify-content-center">
+                  <input id="enviar" class="contact__button" name="enviar" type="submit" value="Enviar">
+                </div>
+
+                <div id="resp"></div>
+
+                <div class="col-md-12 arrow d-flex justify-content-center">
+                  <svg id="arrow__end" width="47" height="75" viewBox="0 0 47 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g  clip-path="url(#clip0_217_2)">
+                    <path  d="M3 23.3093C3 28.7342 5.11258 33.8344 8.94859 37.6704C12.7846 41.5064 17.8848 43.619 23.3097 43.619C28.7347 43.619 33.8349 41.5064 37.6709 37.6704C41.5069 33.8344 43.6195 28.7342 43.6195 23.3093C43.6195 17.8843 41.5069 12.7841 37.6709 8.94811C33.8349 5.11211 28.7347 2.99953 23.3097 2.99953C17.8848 2.99953 12.7846 5.11211 8.94859 8.94811C5.11258 12.7841 3 17.8843 3 23.3093ZM0 23.3093C0 10.4356 10.4361 -0.000469208 23.3097 -0.000469208C36.1834 -0.000469208 46.6195 10.4356 46.6195 23.3093C46.6195 36.1829 36.1834 46.619 23.3097 46.619C10.4361 46.619 0 36.1829 0 23.3093Z" fill="#F60042"/>
+                    <path class="animate__animated animate__shakeY animate__infinite animate__slower" d="M23.31 73.314L23.31 19.294" stroke="#2FDEC6" stroke-width="3" stroke-linecap="round"/>
+                    <path class="animate__animated animate__shakeY animate__infinite animate__slower" d="M17.423 24.59L23.199 18.814L28.975 24.59" stroke="#2FDEC6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_217_2">
+                    <rect width="46.62" height="74.815" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    
+                </div>
+              </div>
+            </div>
+          </form>
+            
+          
+          </div>
+        </div>
+       </section>
+      
+
+      </div>
+    </main>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="src/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="src/anime-master/lib/anime.min.js"></script>
+    <script src="src/typed.js-master/lib/typed.js"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
